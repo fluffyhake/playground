@@ -1,0 +1,5 @@
+mkdir build
+cmake ..
+g++ -std=c++1y -Wall -Wextra ../main.cpp -o main
+
+./main
